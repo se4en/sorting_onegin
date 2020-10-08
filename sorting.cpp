@@ -268,3 +268,9 @@ void Sorter::reverse_sort() {
     print_head(rev_sort);
     print_tail(rev_sort);
 }
+
+int main() {
+    Sorter Hamlet("hamlet.txt");
+    Hamlet.sort();
+    Hamlet.reverse_sort();
+}
