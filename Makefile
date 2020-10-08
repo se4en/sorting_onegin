@@ -1,5 +1,5 @@
 CC=g++
-CCFLAGS=-Wall -o
+CCFLAGS=-Wall -Wextra -o
 
 sorting:
 	$(CC) sorting.cpp $(CCFLAGS) sorting
